@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: mx.tec.lab.UnderstandingAssertsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.279 s <<< FAILURE! - in mx.tec.lab.UnderstandingAssertsApplicationTests
+testAssertThatHasItems  Time elapsed: 0.395 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expecting ArrayList:
+ <["Harrenhal", "Dragonstone", "Winterfell"]>
+to contain:
+ <["Winterfell", "Riverrun"]>
+but could not find the following element(s):
+ <["Riverrun"]>
+
+	at mx.tec.lab.UnderstandingAssertsApplicationTests.testAssertThatHasItems(UnderstandingAssertsApplicationTests.java:77)
+
